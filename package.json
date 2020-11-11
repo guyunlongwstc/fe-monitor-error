@@ -1,8 +1,8 @@
 {
-  "name": "sentinel",
-  "version": "1.0.0-beta.1",
-  "description": "sentinel",
-  "main": "output/sentinel.js",
+  "name": "fe-monitor-error",
+  "version": "1.0.0-rc.2",
+  "description": "前端异常监控",
+  "main": "lib/sentinel.js",
   "types": "types/index.d.ts",
   "scripts": {
     "build": "rm -rf output && rollup --config scripts/rollup.config.prod.js"

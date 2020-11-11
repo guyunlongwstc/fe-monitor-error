@@ -17,7 +17,7 @@ export default {
     input: './src/index.ts',
 
     output: {
-        file: './output/sentinel.js',
+        file: './lib/sentinel.js',
         format: 'umd',
         name: 'sentinel'
     },
