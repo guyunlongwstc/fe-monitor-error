@@ -1,0 +1,37 @@
+{
+  "name": "sentinel",
+  "version": "1.0.0-beta.1",
+  "description": "sentinel",
+  "main": "output/sentinel.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "rm -rf output && rollup --config scripts/rollup.config.prod.js"
+  },
+  "author": "guyunlong",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@types/node": "^12.7.1",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^6.1.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rrweb": "^0.7.25",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "core-js": "^3.6.1"
+  }
+}
